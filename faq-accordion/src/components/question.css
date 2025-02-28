@@ -1,0 +1,29 @@
+.question{
+    border-top: 1px solid var(--light-pink);
+    border-bottom: 1px solid var(--light-pink);
+    padding: 1rem 0;
+}
+
+.question > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.question > header p{
+    color: var(--dark-purple);
+    font-weight: 600;
+}
+
+.question > header:hover p{
+    color: purple;
+}
+
+.answer-content p{
+    text-align: start;
+    margin-top: .5rem;
+    color: gray;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
